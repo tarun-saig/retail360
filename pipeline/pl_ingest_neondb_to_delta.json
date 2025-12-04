@@ -95,7 +95,13 @@
 							"outputs": [
 								{
 									"referenceName": "ds_adls_tabledata_parquet",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"FolderName": {
+											"value": "@item().table_name",
+											"type": "Expression"
+										}
+									}
 								}
 							]
 						}
