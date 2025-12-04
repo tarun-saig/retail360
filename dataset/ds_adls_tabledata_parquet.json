@@ -1,0 +1,36 @@
+{
+	"name": "ds_adls_tabledata_parquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_saretail360dev_seed_data",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "raw"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "review_id",
+				"type": "UTF8"
+			},
+			{
+				"name": "order_id",
+				"type": "UTF8"
+			},
+			{
+				"name": "review_creation_date",
+				"type": "UTF8"
+			},
+			{
+				"name": "review_answer_timestamp",
+				"type": "UTF8"
+			}
+		]
+	}
+}
