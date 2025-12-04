@@ -1,0 +1,6 @@
+{
+	"name": "pl_ingest_mongo_to_datalake",
+	"properties": {
+		"annotations": []
+	}
+}
