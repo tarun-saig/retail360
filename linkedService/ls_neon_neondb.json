@@ -1,0 +1,17 @@
+{
+	"name": "ls_neon_neondb",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "PostgreSqlV2",
+		"typeProperties": {
+			"server": "ep-young-fire-a82qxqz4-pooler.eastus2.azure.neon.tech",
+			"port": 5432,
+			"database": "neondb",
+			"username": "neondb_owner",
+			"sslMode": 2,
+			"authenticationType": "Basic",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDZGMDdDRDU2LThDN0MtNEFBMi05Q0E5LUU2NkVCMjZDRDJFNV9hMzE4M2U5OS04YWM3LTQwZGEtYjA4Yy0xOThhZmYxM2ZjY2MiDQp9"
+		}
+	}
+}
