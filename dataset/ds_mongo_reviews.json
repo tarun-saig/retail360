@@ -1,0 +1,15 @@
+{
+	"name": "ds_mongo_reviews",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_mongo_atlas_OlistEcomm",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "MongoDbAtlasCollection",
+		"schema": [],
+		"typeProperties": {
+			"collection": "Reviews"
+		}
+	}
+}

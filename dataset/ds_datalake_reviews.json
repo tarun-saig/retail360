@@ -1,0 +1,20 @@
+{
+	"name": "ds_datalake_reviews",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_saretail360dev_seed_data",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "review",
+				"fileSystem": "raw"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
