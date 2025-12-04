@@ -28,7 +28,7 @@
 				}
 			},
 			{
-				"name": "ForEach1",
+				"name": "forEach_table",
 				"type": "ForEach",
 				"dependsOn": [
 					{
@@ -47,7 +47,7 @@
 					"isSequential": true,
 					"activities": [
 						{
-							"name": "Copy data1",
+							"name": "cp_neon_table_parquet",
 							"type": "Copy",
 							"dependsOn": [],
 							"policy": {
