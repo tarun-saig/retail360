@@ -1,0 +1,9 @@
+{
+	"name": "adfretail360dev",
+	"location": "australiasoutheast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a4c81117-1d55-4fc5-9bfb-17a4a7d1e27a",
+		"tenantId": "c425d217-134f-4f4b-a95e-ce322f2bf22c"
+	}
+}
