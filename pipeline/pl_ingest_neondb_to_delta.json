@@ -1,0 +1,6 @@
+{
+	"name": "pl_ingest_neondb_to_delta",
+	"properties": {
+		"annotations": []
+	}
+}
